@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FRUIT_TOP_MARGIN	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const int FRUIT_TOP_MARGIN = 40;$/;"	variable	line:8
+FRUIT_SPAWN_RATE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const int FRUIT_SPAWN_RATE = 20;$/;"	variable	line:10
+TIME_LIMIT_SECOND	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const float TIME_LIMIT_SECOND = 60.0;$/;"	variable	line:12
+GOLDEN_FRUIT_SCORE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const int GOLDEN_FRUIT_SCORE = 5;$/;"	variable	line:14
+BOMB_PENALTY_SCORE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const int BOMB_PENALTY_SCORE = 4;$/;"	variable	line:16
+GOLDEN_FRUIT_PROBABILITY_BASE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const float GOLDEN_FRUIT_PROBABILITY_BASE = 0.02;$/;"	variable	line:18
+BOMB_PROBABILITY_BASE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const float BOMB_PROBABILITY_BASE = 0.05;$/;"	variable	line:20
+GOLDEN_FRUIT_PROBABILITY_RATE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const float GOLDEN_FRUIT_PROBABILITY_RATE = 0.001;$/;"	variable	line:22
+BOMB_PROBABILITY_RATE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const float BOMB_PROBABILITY_RATE = 0.003;$/;"	variable	line:24
+FRUIT_SPAWN_FREQUENCY_BASE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const float FRUIT_SPAWN_FREQUENCY_BASE = 0.02;$/;"	variable	line:26
+FRUIT_SPAWN_FREQUENCY_RATE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const float FRUIT_SPAWN_FREQUENCY_RATE = 1.05f;$/;"	variable	line:28
+MAXIMUM_SPAWN_FREQUENCY	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const float MAXIMUM_SPAWN_FREQUENCY = 0.5;$/;"	variable	line:30
+NOMAL_FRUIT_COUNT	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const int NOMAL_FRUIT_COUNT = 5;$/;"	variable	line:32
+LABEL_FONT_SIZE	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const int LABEL_FONT_SIZE = 20;$/;"	variable	line:34
+HIGH_SCORE_KEY	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^const char* HIGH_SCORE_KEY = "highscorekey";$/;"	variable	line:36
+MainScene	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^MainScene::MainScene()$/;"	function	line:38	class:MainScene	signature:()
+~MainScene	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^MainScene::~MainScene()$/;"	function	line:54	class:MainScene	signature:()
+createScene	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^Scene* MainScene::createScene()$/;"	function	line:65	class:MainScene	signature:()
+init	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^bool MainScene::init()$/;"	function	line:75	class:MainScene	signature:()
+addFruit	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^Sprite* MainScene::addFruit()$/;"	function	line:190	class:MainScene	signature:()
+removeFruit	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^bool MainScene::removeFruit(Sprite* fruit)$/;"	function	line:276	class:MainScene	signature:(Sprite* fruit)
+catchFruit	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::catchFruit(cocos2d::Sprite* fruit)$/;"	function	line:291	class:MainScene	signature:(cocos2d::Sprite* fruit)
+update	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::update(float dt)$/;"	function	line:324	class:MainScene	signature:(float dt)
+onResult	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::onResult()$/;"	function	line:370	class:MainScene	signature:()
+onEnterTransitionDidFinish	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::onEnterTransitionDidFinish()$/;"	function	line:410	class:MainScene	signature:()
+onCatchBomb	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::onCatchBomb()$/;"	function	line:422	class:MainScene	signature:()
+onExit	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::onExit()$/;"	function	line:454	class:MainScene	signature:()
+addReadyLabel	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::addReadyLabel()$/;"	function	line:463	class:MainScene	signature:()
+addFinishLabel	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::addFinishLabel()$/;"	function	line:508	class:MainScene	signature:()
+getHighScore	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^int MainScene::getHighScore()$/;"	function	line:539	class:MainScene	signature:()
+updateHighScore	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^void MainScene::updateHighScore()$/;"	function	line:545	class:MainScene	signature:()
+generateRandom	/home/daichi/dev/cocos.projects/KawazCatch/Classes/MainScene.cpp	/^float MainScene::generateRandom(float min,float max)$/;"	function	line:552	class:MainScene	signature:(float min,float max)
