@@ -38,9 +38,9 @@ bool TitleScene::init()
 	this->addChild(background);
 
 	//add logo
-	auto logo = Sprite::create("title_logo.png");
-	logo->setPosition(Vec2(winSize.width / 2.0, winSize.height - 300));
-	this->addChild(logo);
+	// auto logo = Sprite::create("title_logo.png");
+	// logo->setPosition(Vec2(winSize.width / 2.0, winSize.height - 300));
+	// this->addChild(logo);
 
 	//add 'touch to start' label
 	auto touchToStart = Sprite::create("title_start.png");
